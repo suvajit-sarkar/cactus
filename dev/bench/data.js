@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718608598177,
+  "lastUpdate": 1718740183753,
   "repoUrl": "https://github.com/suvajit-sarkar/cactus",
   "entries": {
     "Benchmark": [
@@ -69,6 +69,37 @@ window.BENCHMARK_DATA = {
             "range": "±2.71%",
             "unit": "ops/sec",
             "extra": "179 samples"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "suvajit.sarkar@accenture.com",
+            "name": "suvajit-sarkar",
+            "username": "suvajit-sarkar"
+          },
+          "committer": {
+            "email": "petermetz@users.noreply.github.com",
+            "name": "Peter Somogyvari",
+            "username": "petermetz"
+          },
+          "distinct": true,
+          "id": "b1093a1c2e446f3ce4b1c56e146e7e038a30bee4",
+          "message": "docs(goveranace): change rocketchat to discord\n\nSigned-off-by: suvajit-sarkar <suvajit.sarkar@accenture.com>",
+          "timestamp": "2024-06-18T12:17:55-07:00",
+          "tree_id": "e378ca252ae857e078b8e790e5c2e1d59d928b6b",
+          "url": "https://github.com/suvajit-sarkar/cactus/commit/b1093a1c2e446f3ce4b1c56e146e7e038a30bee4"
+        },
+        "date": 1718740181784,
+        "tool": "benchmarkjs",
+        "benches": [
+          {
+            "name": "plugin-ledger-connector-besu_HTTP_GET_getOpenApiSpecV1",
+            "value": 676,
+            "range": "±2.93%",
+            "unit": "ops/sec",
+            "extra": "176 samples"
           }
         ]
       }
